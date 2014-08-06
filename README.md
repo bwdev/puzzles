@@ -19,3 +19,9 @@ Even Fibonacci numbers
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms
 
 ______________________________________________________________
+
+
+Deck of Cards
+This was a data structure that I was asked to build as an interview question... I got frustrated and the interview ended up not going well. This is the result of me proving that I could come up with something.
+
+______________________________________________________________
