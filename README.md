@@ -30,3 +30,8 @@ Smallest Multiple - from Project Euler
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 ______________________________________________________________
+
+Sum Square Difference - from Project Euler
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+______________________________________________________________
