@@ -10,6 +10,17 @@ class CardDeck
   end
   
   def self.shuffle
+    #Fisher-Yates algorithm
+    t = @@cards.length
+    random = Random.new
+
+    while(t > 1)
+      t = t - 1
+      _r = random.rand(t)
+      _tmp = @@cards[t]
+      @@cards[t] = @@cards[_r]
+      @@cards[_r] = _tmp
+    end
   end
 
   def self.show_cards
@@ -82,4 +93,6 @@ class Suit
 end
 
 _deck = CardDeck.new
+CardDeck.show_cards
+CardDeck.shuffle
 CardDeck.show_cards
